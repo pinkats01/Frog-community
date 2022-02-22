@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    src: url(font/Makasih.ttf);
+    font-family: makasih;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+.nav, .footer {
+    background-color: #053b0b;
+    color: #e5e7eb;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 8px;
+}
+
+a{
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.logo {
+    font-family: makasih;
+    color: #f9faf8;
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+}
+.links {
+    font-size: 16px;
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    margin-right: 50px;
+}
+
+.links div {
+    max-width: 90px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.hero {
+    background-image: url(images/frogs-in-love.jpeg);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 100px 0;
+    background-color: #1f2937;
+    
+}
+
+.left-part {
+    height: 250px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 23px;
+    color: #e5e7eb;
+}
+.right-part {
+    height: 250px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-part img {
+    max-width: 300px;
+    height: auto;
+}
+
+.hero-content {
+    background-color: rgba(8, 8, 8, 0.6);
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.hero-head {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+button {
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #24a72f;
+    color: #fafafa;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.information {
+    padding: 30px;
+    text-align: center;
+    padding-bottom: 90px;
+    background-color: #24a72f;
+}
+
+.info-head {
+    font-size: 23px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    color: #042e08;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;  
+}
+.info {
+    max-width: 140px;
+    color: #042e08;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}    
+
+.illustrations {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #07440d;
+    border-radius: 10px;
+    display: flex; 
+}
+
+.illustrations img {
+    width: 120px;
+    height: auto;
+    flex: 1 1 0;
+    border-radius: 6px;
+}
+
+.paragraph {
+    background-image: url(images/smiling-frog.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 23px;
+    font-weight: 300;
+    padding: 100px;
+}
+.paragraph-container {
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f3f3f3;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.author {
+    font-size: 16px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background-color: #24a72f;
+}
+
+.action-content {
+    width: 1000px;
+    height: 130px;
+    background-color: #042e08;
+    color: #e5e7eb;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+
+.sign-up-head, .action-content button {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.footer {
+    padding: 16px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: lighter;
+}
